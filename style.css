@@ -47,6 +47,10 @@ em {
   max-width: 600px;
   margin: 30px;
 }
+#credits {
+  float: left;
+  font-family: Questa;
+}
 
 a:link, a:hover, a:active {
     color: black;
