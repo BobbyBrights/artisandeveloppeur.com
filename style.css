@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Norwester;
+  src: url("fonts/norwester.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Questa;
+  src: url("fonts/questa.otf") format("opentype");
+}
+
+#logo {
+  text-align: center;
+  width: 50%;
+  min-width: 300px;
+  max-width: 600px;
+  float: left;
+  margin: 30px;
+}
+
+#logo img {
+  width: 100%;
+}
+
+h1 {
+  font-family: Norwester;
+  font-size: 7em;  
+  text-transform: uppercase;
+}
+
+p {
+  margin-top: 0;
+}
+
+em {
+  font-style: normal;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 0px 7px 5px 7px;
+}
+#manifest {
+  width: 50%;
+  float: left;
+  font-family: Questa;
+  font-size: 2em;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 30px;
+}
+
+a:link, a:hover, a:active {
+    color: black;
+}
+a:visited {
+    color: gray;
+}
+
